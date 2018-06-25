@@ -8,6 +8,6 @@ eureka:
     hostname: mh-eurekaserver.herokuapp.com
   client:
     service-url:
-      default-zone: mh-eurekaserver.herokuapp.com/eureka/
+      default-zone: mh-eurekaserver.herokuapp.com:8761/eureka/
     fetch-registry: false
     register-with-eureka: false
