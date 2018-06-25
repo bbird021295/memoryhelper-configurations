@@ -5,9 +5,9 @@ spring:
     name: eureka-server
 eureka:
   instance:
-    hostname: memoryhelper-configurationserver.herokuapp.com
+    hostname: mh-eurekaserver.herokuapp.com
   client:
     service-url:
-      default-zone: memoryhelper-configurationserver.herokuapp.com/eureka/
+      default-zone: mh-eurekaserver.herokuapp.com/eureka/
     fetch-registry: false
     register-with-eureka: false
