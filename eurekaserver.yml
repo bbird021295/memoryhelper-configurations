@@ -1,0 +1,13 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: eureka-server
+eureka:
+  instance:
+    hostname: memoryhelper-configurationserver.herokuapp.com
+  client:
+    service-url:
+      default-zone: memoryhelper-configurationserver.herokuapp.com/eureka/
+    fetch-registry: false
+    register-with-eureka: false
