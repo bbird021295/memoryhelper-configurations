@@ -1,3 +1,7 @@
 creator:
   name: bbird
   email: bbird021295@gmail.com
+eureka:
+  client:
+    service-url:
+      default-zone: https://mh-eurekaserver.herokuapp.com:8761/eureka
