@@ -5,9 +5,9 @@ spring:
     name: eureka-server
 eureka:
   instance:
-    hostname: mh-eurekaserver.herokuapp.com
+    hostname: localhost
   client:
     service-url:
-      default-zone: mh-eurekaserver.herokuapp.com:8761/eureka/
+      default-zone: http://${eureka.instance.hostname}:${server.port}/eureka/
     fetch-registry: false
     register-with-eureka: false
