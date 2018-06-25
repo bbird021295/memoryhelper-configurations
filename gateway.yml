@@ -8,6 +8,6 @@ zuul:
   ignored-services: "*"
   routes:
     api:
-      path: "/api/**"
+      path: /api/**
       service-id: api
       strip-prefix: true
