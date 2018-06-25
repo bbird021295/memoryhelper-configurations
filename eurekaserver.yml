@@ -4,6 +4,7 @@ spring:
   application:
     name: eureka-server
 eureka:
+  environment: prod
   instance:
     hostname: mh-eurekaserver.herokuapp.com
   client:
