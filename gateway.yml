@@ -1,5 +1,8 @@
 server:
   port: 8765
+spring:
+  application:
+    name: gateway
 zuul:
   sensitive-headers: [Authorization, Set-Cookie]
   ignored-services: "*"
