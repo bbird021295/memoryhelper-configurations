@@ -1,1 +1,10 @@
-
+server:
+  port: 8765
+zuul:
+  sensitive-headers: [Authorization, Set-Cookie]
+  ignored-services: "*"
+  routes:
+    api:
+      path: "/api/**"
+      service-id: api
+      strip-prefix: true
